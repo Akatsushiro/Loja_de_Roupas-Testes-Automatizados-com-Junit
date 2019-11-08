@@ -40,7 +40,7 @@ public class CreateAccount extends QaDriver{
 		WebElement mobile = driver.findElement(By.id("phone_mobile"));
 		WebElement endereco_alternativo = driver.findElement(By.id("alias"));
 		
-		endereco.sendKeys("Rua Madeira 337");
+		endereco.sendKeys("Rua pinho 666");
 		cidade.sendKeys("Itapecerica");
 		estado.selectByValue("1");
 		cep.sendKeys("00000");
