@@ -1,7 +1,7 @@
 # Loja_de_Roupas-Testes-Automatizados-com-Junit
 Loja_de_Roupas Testes Automatizados com Junit para entrega em aula.
 
-É necessário ter o navegador chrome instalado com a versão 77.0.3865.40, java, IDE Eclipse e conexão com a internet
+É necessário ter o navegador chrome instalado com a versão 77.0.3865.40 ou superior, java, IDE Eclipse e conexão com a internet
 
 1 - Importe o projeto como um projeto MAVEN existente para sua IDE.
 
