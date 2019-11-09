@@ -1,7 +1,21 @@
 # Loja_de_Roupas-Testes-Automatizados-com-Junit
 Loja_de_Roupas Testes Automatizados com Junit para entrega em aula.
 
-É necessário ter o navegador chrome instalado com a versão 77.0.3865.40 ou superior, java, IDE Eclipse e conexão com a internet
+# Pré-requisitos
+
+- Google Chrome versão 77.0.3865.40
+- Java Runtime Environment (JRE)
+- IDE para execução:
+  - Eclipse
+  - Spring Tools
+
+# Como clonar o projeto para sua máquina
+
+Utilize o git bash e execute o seguinte comando:
+
+`git clone https://github.com/Akatsushiro/Loja_de_Roupas-Testes-Automatizados-com-Junit/`
+
+# Como executar
 
 1 - Importe o projeto como um projeto MAVEN existente para sua IDE.
 
