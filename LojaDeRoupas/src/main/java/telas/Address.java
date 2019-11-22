@@ -13,7 +13,7 @@ public class Address extends QaDriver{
 	public static void confirmarEndereco() {
 		new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(By.name("processAddress")));
 		
-		WebElement endereco = driver.findElement(By.xpath("//ul[@id='address_delivery']//li[@class='address_city address_state_name address_postcode'][contains(text(),'asdtgfc, Delaware 00000')]"));
+		WebElement endereco = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/form[1]/div[1]/div[2]/div[1]/ul[1]/li[4]"));
 		WebElement btn_checkout = driver.findElement(By.name("processAddress"));
 		
 		assertEquals("Itapecerica, Alabama 00000", endereco.getText());

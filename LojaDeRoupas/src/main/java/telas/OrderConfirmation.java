@@ -11,9 +11,9 @@ import conexao.QaDriver;
 
 public class OrderConfirmation extends QaDriver{
 	public static void confirmarPedido() {
-		new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(By.xpath("//span[contains(text(),'I confirm my order')]")));
+		new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/p[1]")));
 		
-		WebElement confirmar_sucesso = driver.findElement(By.xpath("//span[contains(text(),'I confirm my order')]"));
+		WebElement confirmar_sucesso = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/p[1]"));
 		assertEquals("Your order on My Store is complete.", confirmar_sucesso.getText());
 	}
 }
